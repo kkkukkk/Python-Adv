@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>532</width>
-    <height>422</height>
+    <width>508</width>
+    <height>473</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,38 +17,64 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>20</y>
-      <width>291</width>
-      <height>91</height>
+      <x>180</x>
+      <y>-20</y>
+      <width>151</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>Hello World 17ParkJinuk</string>
+     <string>Coin Price</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>140</y>
-      <width>121</width>
-      <height>51</height>
+      <x>400</x>
+      <y>90</y>
+      <width>75</width>
+      <height>23</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
-     <string>click</string>
+     <string>Do</string>
     </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>431</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>4</number>
+    </property>
+    <property name="columnCount">
+     <number>2</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -56,7 +82,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>532</width>
+     <width>508</width>
      <height>21</height>
     </rect>
    </property>
